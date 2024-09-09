@@ -1,0 +1,64 @@
+<div class="contactoContainer">
+    <div class="formContainer">
+        <form class="row g-3 m-auto">
+            <div class="mb-3">
+                <label class="form-label">Nombre y apellido</label>
+                <input type="text" class="form-control" name="nombre" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+                <input type="email" class="form-control" id="exampleFormControlInput1" name="email" required>
+            </div>
+
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" name="mensaje"
+                    required></textarea>
+            </div>
+
+            <div class="col-12">
+                <button type="button" class="btn btn-primary" id="btn-enviar" data-bs-toggle="modal"
+                    data-bs-target="#exampleModal">Enviar</button>
+
+                <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
+                    aria-hidden="true">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h1 class="modal-title fs-5" id="exampleModalLabel">Confirmación</h1>
+                                <button type="button" class="btn-close" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div class="modal-body" id="modal-body-contacto">
+                                <span class="material-symbols-outlined text-success">
+                                    check
+                                </span>
+                                &nbsp; El formulario se envió con éxito.
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+            </div>
+        </form>
+    </div>
+
+    <div class="masContacto">
+        <h5>¿Querés conocer más?</h5>
+        <div class="imgContainer">
+            <a href="https://github.com/MaitenBlanc" target="_blank">
+                <img width="64" height="64" src="https://img.icons8.com/nolan/64/github.png" alt="github" />
+            </a>
+            <a href="https://www.linkedin.com/in/maiten-guadalupe-blanc/" target="_blank">
+                <img width="64" height="64" src="https://img.icons8.com/nolan/64/linkedin.png" alt="linkedin" />
+            </a>
+        </div>
+    </div>
+</div>
+
+<script src="../js/scripts.js"></script>

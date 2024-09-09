@@ -1,0 +1,71 @@
+.carousel-item {
+    background-color: black;
+}
+
+.navbar {
+    width: 100%;
+}
+
+.card {
+    margin: auto;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 15em;
+}
+
+#btn-mas {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+.formContainer {
+    margin-top: 3em;
+}
+
+form.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    padding: 2em;
+    width: fit-content;
+    /* box-shadow: 0px 10px 15px -3px rgba(0, 0, 0, 0.1), 0px 10px 15px -3px rgba(0, 0, 0, 0.1); */
+    /* border: 1px solid rgba(0, 0, 0, 0.1); */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.contactoContainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.masContacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 3em;
+    margin-right: 3em;
+}
+
+.imgContainer img {
+    cursor: pointer;
+}
+
+.modal-body {
+    display: flex;
+    flex-direction: column;
+}
+
+#modal-body-contacto {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 1.5em;
+}
